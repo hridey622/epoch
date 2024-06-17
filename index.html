@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>epoch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>epoch</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="sell.html" id="sell-link">Sell</a>
+            <a href="signup.html" id="signup-link">Signup</a>
+            <a href="login.html" id="login-link">Login</a>
+            <a href="#" id="logout-link" style="display: none;">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <section id="product-list">
+            <h2>Shop</h2>
+            <!-- Example product item -->
+            <div class="product-item">
+                <img src="https://source.unsplash.com/random/200x200?product" alt="Product Image">
+                <h3>Product Name</h3>
+                <p>$10.00</p>
+                <a href="product-details.html" class="buy-link">Buy Now</a>
+            </div>
+        </section>
+    </main>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+    <script src="firebase-config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
